@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/send_message"
+        android:id="@+id/req_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Type the Send_Message"
@@ -24,7 +24,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -34,9 +35,9 @@
 
         <TextView
             android:id="@+id/resp_message"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30dp" />
+            android:textSize="20dp" />
     </LinearLayout>
 
 
